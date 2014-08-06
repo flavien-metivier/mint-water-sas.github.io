@@ -653,9 +653,12 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    color: #fff;
+    //background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 25px;
 }
 
 section#contact .section-heading {
@@ -867,4 +870,14 @@ body {
     font-size: 14px;
     line-height: 1.75;
     margin: 0 0 10px;
+}
+
+.map {
+    height: 350px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
 }
